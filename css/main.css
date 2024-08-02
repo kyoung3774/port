@@ -57,7 +57,7 @@ img {
   border: 2px solid wheat;
   border-radius: 4px;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: bold;
   text-align: center;
   cursor: pointer;
   transition: 0.1s;
@@ -79,6 +79,7 @@ img {
 .btn.btn--brown:hover {
   color: wheat;
   background-color: #592b18;
+  border-color: wheat;
 }
 
 
@@ -127,7 +128,7 @@ header nav ul li {
 }
 
 header nav ul li a:hover {
-  color: orange;
+  color: rgb(255, 166, 0);
   /* text-shadow: 1px 1px 5px #333; */
 }
 
@@ -136,7 +137,7 @@ header .btn-hamburger {
 }
 
 header .btn-hamburger .material-symbols-outlined {
-  color: #333;
+  color: wheat;
   font-size: 40px;
   line-height: normal;
 }
